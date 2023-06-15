@@ -1,0 +1,120 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply flex */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(86, 145, 224);
+  background: radial-gradient(
+    circle,
+    rgba(86, 145, 224, 1) 17%,
+    rgba(0, 117, 255, 1) 73%
+  );
+}
+
+/* Main Container */
+.wrapper {
+  width: 440px;
+  background: rgb(134, 223, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(134, 223, 224, 1) 20%,
+    rgba(79, 169, 231, 1) 74%
+  );
+  padding: 2.5rem;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
+}
+
+/* Clock image */
+.wrapper img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Temporary time */
+#currentTime {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+/* Main content */
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Column */
+.column {
+  margin: 0 0.5rem;
+}
+
+/* Select */
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Set alarm button */
+#setBtn {
+  width: 100%;
+  padding: 0.75rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6f00;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* Alarm time indicator */
+#alarmText {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Snooze button */
+#snoozeBtn {
+  width: 100%;
+  padding: 0.75rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6f00;
+  cursor: pointer;
+}
