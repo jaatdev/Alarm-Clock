@@ -1,4 +1,4 @@
-🪧 Demo :- https://akshay0326.github.io/Alarm-Clock/
+🪧 Demo :- https://jaatdev.github.io/Alarm-Clock/
 
 ---
 
@@ -50,7 +50,7 @@ Nothing crazy just download the zip and run LIVE_SERVER.
 
 🙎 Contact .
 
-    🔗 Author - @Akshay Kumar - akshaykumarsinha0326@gmail.com - +91-7562863220
+    🔗 Author - @Kapil Chaudhary - kc90040@gmail.com - +91-9897147756
 
-    ✅ Linkedin ✅ https://www.linkedin.com/in/itsakshaykrs/ ✅
-    ✅ Github   ✅ https://github.com/Akshay0326             ✅
+    
+    ✅ Github   ✅ https://github.com/jaatdev             ✅
